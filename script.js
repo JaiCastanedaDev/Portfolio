@@ -58,9 +58,6 @@ function efectoHabilidades(){
         habilidades[4].classList.add("git");
         habilidades[5].classList.add("laravel");
         habilidades[6].classList.add("vue");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("proyect");
     }
 }
 
