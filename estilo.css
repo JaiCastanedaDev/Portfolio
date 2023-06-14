@@ -268,6 +268,11 @@ html{
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
+    font-size: 1.1rem;
+    padding: 0.2rem;
+}
+.fa-brands, .fab{
+    color:yellow;
 }
 .skills .skill .barra-skill{
     height: 8px;
