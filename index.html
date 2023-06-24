@@ -23,7 +23,10 @@
                 <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
                 <li><a href="#about-me" onclick="seleccionar()">Sobre mi</a></li>
                 <li><a href="#skills" onclick="seleccionar()">Habildidades</a></li>
-                <li><a href="#curriculum" onclick="seleccionar()">Hoja de vida</a></li>
+                <li><a class="download" target="_blank" href="/archives/cv.pdf">
+                        Hoja de vida <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                </a></li>
             </ul>
         </nav>
         <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -41,8 +44,9 @@
         <h1>Jaime Castañeda</h1>
         <h2>Desarrollador de Software</h2>
         <div class="redes">
-            <a href="https://linkedin.com/in/arleycastaneda" target="_blank"><i class="fa-brands fa-linkedin-in"
-                                                                                style="color: #068bee"></i></a>
+            <a href="https://linkedin.com/in/arleycastaneda" target="_blank">
+                <i class="fa-brands fa-linkedin-in" style="color: #068bee"></i>
+            </a>
         </div>
     </div>
 </section>
@@ -51,31 +55,30 @@
 <section id="about-me" class="about-me">
     <div class="contenido-seccion">
         <h2>Sobre Mí</h2>
-        <p>Hola, soy <span id="typed-name">Jaime Castañeda</span></p>
-        <p id="typed-description"></p>
+        <p class="description">Hola, soy <span id="typed-name">Jaime Castañeda</span></p>
+        <p class="description"> Soy un apasionado desarrollador de software, constantemente inmerso en el mundo de la tecnología. Siempre estoy buscando oportunidades para
+            aprender y crecer en mi campo, explorando nuevas tecnologías y enfoques. Mi pasión por el desarrollo de software me impulsa a mantenerme actualizado
+            y adquirir nuevas habilidades, con el objetivo de crear soluciones innovadoras y eficientes.
+        </p>
 
         <div class="fila">
             <div class="col">
                 <h3>Datos Personales</h3>
                 <ul>
                     <li>
-                        <strong>Edad</strong>
-                        23 años
-                    </li>
-                    <li>
-                        <strong>Celular</strong>
+                        <strong>Celular: </strong>
                         +57 3508046484
                     </li>
                     <li>
-                        <strong>Email</strong>
+                        <strong>Email: </strong>
                         arley.castaneda@outlook.com
                     </li>
                     <li>
-                        <strong>Ciudad</strong>
+                        <strong>Ciudad: </strong>
                         Bogotá
                     </li>
                     <li>
-                        <strong>Cargo</strong>
+                        <strong>Cargo: </strong>
                         <span>Desarrollador de software FullStack</span>
                     </li>
                 </ul>
@@ -156,72 +159,6 @@
             <span class="overlay"></span>
         </button>
     </a>
-    <!--<div class="contenido-seccion">
-        <h2>Curriculum</h2>
-        <div class="fila">
-            <div class="col izquierda">
-                <h3>Educación</h3>
-                <div class="item izq">
-                    <h4>Arte y Multimedia</h4>
-                    <span class="casa">Universidad de Oxford</span>
-                    <span class="fecha">2005 - 2008</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                    <div class="conectori">
-                        <div class="circuloi"></div>
-                    </div>
-                </div>
-                <div class="item izq">
-                    <h4>Arte y Multimedia</h4>
-                    <span class="casa">Universidad de Oxford</span>
-                    <span class="fecha">2005 - 2008</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                    <div class="conectori">
-                        <div class="circuloi"></div>
-                    </div>
-                </div>
-                <div class="item izq">
-                    <h4>Arte y Multimedia</h4>
-                    <span class="casa">Universidad de Oxford</span>
-                    <span class="fecha">2005 - 2008</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                    <div class="conectori">
-                        <div class="circuloi"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col derecha">
-                <h3>Experiencia de trabajo</h3>
-                <div class="item der">
-                    <h4>Front Developer</h4>
-                    <span class="casa">Nombre de Compañía</span>
-                    <span class="fecha">2005 - 2008</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                    <div class="conectord">
-                        <div class="circulod"></div>
-                    </div>
-                </div>
-                <div class="item der">
-                    <h4>Front Developer</h4>
-                    <span class="casa">Nombre de Compañía</span>
-                    <span class="fecha">2005 - 2008</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                    <div class="conectord">
-                        <div class="circulod"></div>
-                    </div>
-                </div>
-                <div class="item der">
-                    <h4>Front Developer</h4>
-                    <span class="casa">Nombre de Compañía</span>
-                    <span class="fecha">2005 - 2008</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                    <div class="conectord">
-                        <div class="circulod"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
 </section>
 
 <!-- footer -->
@@ -229,13 +166,6 @@
     <a href="#inicio" class="arriba">
         <i class="fa-solid fa-angles-up"></i>
     </a>
-    <!--<div class="redes">
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-skype"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="#"><i class="fa-solid fa-rss"></i></a>
-    </div>-->
 </footer>
 
 <script src="script.js"></script>

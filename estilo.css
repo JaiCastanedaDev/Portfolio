@@ -37,7 +37,6 @@ html{
     list-style: none;
 }
 .contenedor-header header nav ul li a{
-    text-align: none;
     color: #fff;
     margin: 0 15px;
     padding: 3px;
@@ -150,7 +149,6 @@ html{
     margin: 12px 0;
 }
 .about-me .fila .col ul li strong{
-    display: inline-block;
     color: #068bee;
     width: 130px;
 }
@@ -194,6 +192,20 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+}
+.description{
+    animation: slide-in 1s ease-out 1s forwards;
+    opacity: 0;
+}
+@keyframes slide-in {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 .curriculum button{
     cursor: pointer;
