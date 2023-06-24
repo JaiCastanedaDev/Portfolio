@@ -112,7 +112,7 @@ html{
     padding: 50px 20px;
 }
 .about-me .contenido-seccion{
-    max-width: 1100px;
+    max-width: 68.75rem;
     margin: auto;
 }
 .about-me h2{
@@ -123,7 +123,7 @@ html{
 
 }
 .about-me .contenido-seccion p{
-    font: 18px;
+    font-size: 1rem;
     line-height: 22px;
     margin-bottom: 20px;
 }
@@ -245,11 +245,13 @@ html{
     margin: auto;
 }
 .skills h2{
-    font-size: 48px;
+    font-size: 3rem;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-
+}
+.skills h3{
+    font-size: 1.5rem;
 }
 .skills .fila{
     display: flex;
@@ -265,11 +267,8 @@ html{
     margin-bottom: 25px;
 }
 .skills .skill > span{
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-    font-size: 1.1rem;
     padding: 0.2rem;
+    margin: 0.2rem;
 }
 .fa-brands, .fab{
     color:yellow;
@@ -719,6 +718,41 @@ footer .arriba{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-top: .6rem;
+}
+.icon{
+    display: flex;
+    font-size: 2rem;
+    color: white;
+}
+.square{
+    flex-direction: column;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    margin: 5px;
+    background-color: #1e2326;
+    transition: .3s;
+}
+.square:hover{
+    background-image: linear-gradient(to bottom, #1e2326, #000000);
+}
+.icon-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 @media screen and (max-width:700px){
     .about-me .fila{
