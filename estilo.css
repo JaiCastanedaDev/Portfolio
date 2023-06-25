@@ -743,7 +743,7 @@ footer .arriba{
 }
 .icon{
     display: flex;
-    font-size: 2.3rem;
+    font-size: 3rem;
     color: white;
 }
 .square{
@@ -768,6 +768,9 @@ footer .arriba{
     width: 100%;
 }
 @media screen and (max-width:700px){
+    .icon{
+        font-size: 2.3rem;
+    }
     .about-me .fila{
         display: block;
     }
